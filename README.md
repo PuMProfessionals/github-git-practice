@@ -9,7 +9,9 @@ To begin you will need to install these tools (you may or may not already have t
 
 Unfortunately, I can't give more specific installation instructions. Those instructions are some of the best! Be sure to remember if you're using Mac or Windows. It differs. If you get errors, `google` it's most likely that a lot of people have the same issue!
 
-After we will begin the process of using GitHub and Git. I learned from: https://guides.github.com/activities/hello-world/ (HIGHLY RECOMMEND), but we can also practice with this repo! It will also give a brief view of React.
+After we will begin the process of using GitHub and Git. I learned from: https://guides.github.com/activities/hello-world/ (HIGHLY RECOMMEND), but we will also practice with this repo to get used to npm and React! 
+
+This is using your terminal which may be a bit foreign, but it's practically always necessary in the real world. Potentially you could find Desktop versions to make this process easier.
 
 1. Clone a repo:
 ![assets](assets/Clone.png)
@@ -18,8 +20,8 @@ Click the green code button and make sure it is HTTPS (SSH is a bit more complic
 In your command line (terminal), type: `git clone https://github.com/PuMProfessionals/github-git-practice.git` where https://github.com/PuMProfessionals/github-git-practice.git is the link you just copied.
 
 2. It should be cloned! As in you have a version on your local computer. Github acts as a "master copy" for everyone. Open up VSCode, and open up the project.
-3. In your term also type: `npm install` -> this will install all the node packages you need! This is what allows us to run web applications by using third-party packages... for free!
-4. Add a new branch. This is what you do to contribute your changes, so it doesn't affect everyone else's until after you code! Type in your command line `git checkout -b branchname` where branchname is your name. This basically checks you out of the main branch and creates a new branch called branchname.
+3. In your terminal also type: `npm install` -> this will install all the node packages you need! This is what allows us to run web applications by using third-party packages... for free!
+4. Add a new branch. This is what you do to contribute your changes, so it doesn't affect everyone else's until after you code! This is your personal branch that will be affected by no one else but you. Your changes also won't be added until after you are sure it works. Type in your command line `git checkout -b branchname` where branchname is your name. (some of the processes are shown in the Git Commands photo in step 8) This basically checks you out of the main branch and creates a new branch called branchname. Preferably, name it something else because we can't have repeated branch names. Perhaps your name maybe.
 5. Click into `src->App.js` and open this file.
 ![AppFile](assets/AppFile.png)
 6. Add your name to the array names so:
@@ -32,7 +34,7 @@ In your command line (terminal), type: `git clone https://github.com/PuMProfessi
 ![Code](assets/Code.png)
 7. If it is successful, go back to your command line and type: 
 * `git status` -> this will help check if you actually changed your files. you will see what you added or deleted
-* `git add .` -> this will add all your files to the branch
+* `git add .` -> this will add all your files to the branch that will then be commited
 * `git commit -m "I have commited"` -> this is a brief message of what you did with what is in quotation marks as what you added
 * `git push origin branchname` this will push your changes to the branch you created
 ![GitCommands](assets/GitCommands.png)
