@@ -3,7 +3,8 @@ import styled from 'styled-components'
 import { BowlingBall } from '@styled-icons/boxicons-regular/BowlingBall';
 
 const names = [
-  'Sharon He'
+  'Sharon He',
+  'Name X'
 ]
 
 const App = () => {
