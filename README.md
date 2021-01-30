@@ -46,8 +46,10 @@ Press `Compare & pull request`
 12. In the slack channel @ me and I will get to review your code. In this case, I will approve it, but in a coding setting, I might request changes before merging. This is so we keep the code quality to a certain standard, and make sure no breaking changes are made.
 ![Merge](assets/Merge.png)
 
+Once I approve it you can then press `Merge pull request`
+
 ** There are other concepts that are not covered like merge conflicts which you probably will encounter. This just means there's code from the master copy that will be overwritten by your branch. This is Git warning us!
-* You can message me when this happens, or try fixing it on your own:
+You can message me when this happens, or try fixing it on your own:
 - In your terminal in the file of this repository: type `git pull origin main` -> you are pulling the differences into your branch
 - Go to the files that have conflicts on VSCode they will be marked as C. This is most likely only the `App.js` file since it is the only one we are fixing.
 - Remove all the foreign markers <<< >>> etc.
