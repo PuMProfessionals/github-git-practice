@@ -7,7 +7,7 @@ To begin you will need to install these tools (you may or may not already have t
 * `node & npm`: https://nodejs.org/en/download/ -> install node (a JavaScript runtime you don't need to know what this is), but it comes with npm which is what you need it stands for node package manager and allows us to manage JavaScript packages. think of these as "plugins" from Wordpress.
 * `VSCode`: https://code.visualstudio.com/download -> one of the most beginner friendly coding environments
 
-Unfortunately, I can't give more specific installation instructions. Those read it the best! Be sure to remember if you're using Mac or Windows. It differs.
+Unfortunately, I can't give more specific installation instructions. Those instructions are some of the best! Be sure to remember if you're using Mac or Windows. It differs. If you get errors, `google` it's most likely that a lot of people have the same issue!
 
 After we will begin the process of using GitHub and Git. I learned from: https://guides.github.com/activities/hello-world/ (HIGHLY RECOMMEND), but we can also practice with this repo! It will also give a brief view of React.
 
@@ -21,6 +21,7 @@ In your command line (terminal), type: `git clone https://github.com/PuMProfessi
 3. In your term also type: `npm install` -> this will install all the node packages you need! This is what allows us to run web applications by using third-party packages... for free!
 4. Add a new branch. This is what you do to contribute your changes, so it doesn't affect everyone else's until after you code! Type in your command line `git checkout -b branchname` where branchname is your name. This basically checks you out of the main branch and creates a new branch called branchname.
 5. Click into `src->App.js` and open this file.
+![AppFile](assets/AppFile.png)
 6. Add your name to the array names so:
 `const names = [
   'Sharon He', 
@@ -28,11 +29,26 @@ In your command line (terminal), type: `git clone https://github.com/PuMProfessi
 ]
 `
 6. To see if your changes have been made, save the file. In your command terminal, then type `npm start`. This will start up a local development environment, and you will see: 
+![Code](assets/Code.png)
 7. If it is successful, go back to your command line and type: 
 * `git status` -> this will help check if you actually changed your files. you will see what you added or deleted
 * `git add .` -> this will add all your files to the branch
 * `git commit -m "I have commited"` -> this is a brief message of what you did with what is in quotation marks as what you added
 * `git push origin branchname` this will push your changes to the branch you created
+![GitCommands](assets/GitCommands.png)
 8. Now we will make a pull request so your changes can be merged into the main branch (the master copy!)
-9. 
- `
+9. After putting your Git commands, you can now go back to github, this repository and you should see:
+![PR](assets/PR.png)
+Press `Compare & pull request`
+10. Make the pull request by pressing `Create Pull Request`
+![Make](assets/Make.png)
+11. First make sure to put me as a Reviewer (or anyone else if you want). Normally the process is to get your code reviewed first, so we will try this for now!
+12. In the slack channel @ me and I will get to review your code. In this case, I will approve it, but in a coding setting, I might request changes before merging. This is so we keep the code quality to a certain standard, and make sure no breaking changes are made.
+![Merge](assets/Merge.png)
+
+** There are other concepts that are not covered like merge conflicts which you probably will encounter. This just means there's code from the master copy that will be overwritten by your branch. This is Git warning us!
+* You can message me when this happens, or try fixing it on your own:
+- In your terminal in the file of this repository: type `git pull origin main` -> you are pulling the differences into your branch
+- Go to the files that have conflicts on VSCode they will be marked as C. This is most likely only the `App.js` file since it is the only one we are fixing.
+- Remove all the foreign markers <<< >>> etc.
+- Redo the process of the git commands (step 8) and add those changes, and go back to your pull request. You should now be able to merge.
