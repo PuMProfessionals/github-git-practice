@@ -34,7 +34,7 @@ In your command line (terminal), type: `git clone https://github.com/PuMProfessi
 ![Code](assets/Code.png)
 7. If it is successful, go back to your command line and type: 
 * `git status` -> this will help check if you actually changed your files. you will see what you added or deleted
-* `git add .` -> this will add all your files to the branch that will then be commited
+* `git add App.js` -> this will add all your files to the branch that will then be commited
 * `git commit -m "I have commited"` -> this is a brief message of what you did with what is in quotation marks as what you added
 * `git push origin branchname` this will push your changes to the branch you created
 ![GitCommands](assets/GitCommands.png)
