@@ -19,7 +19,7 @@ Click the green code button and make sure it is HTTPS (SSH is a bit more complic
 
 In your command line (terminal), type: `git clone https://github.com/PuMProfessionals/github-git-practice.git` where https://github.com/PuMProfessionals/github-git-practice.git is the link you just copied.
 
-2. It should be cloned! As in you have a version on your local computer. Github acts as a "master copy" for everyone. Open up VSCode, and open up the project.
+2. It should be cloned! As in you have a version on your local computer. Github acts as a "master copy" for everyone. Then, open up the folder that you just cloned and copy the folder address. Go to the command line and type `cd 'paste your file location here'` to go into the project in Git Bash. Open up VSCode, and open up the project.
 3. In your terminal also type: `npm install` -> this will install all the node packages you need! This is what allows us to run web applications by using third-party packages... for free!
 4. Add a new branch. This is what you do to contribute your changes, so it doesn't affect everyone else's until after you code! This is your personal branch that will be affected by no one else but you. Your changes also won't be added until after you are sure it works. Type in your command line `git checkout -b branchname` where branchname is your name. (some of the processes are shown in the Git Commands photo in step 8) This basically checks you out of the main branch and creates a new branch called branchname. Preferably, name it something else because we can't have repeated branch names. Perhaps your name maybe.
 5. Click into `src->App.js` and open this file.
