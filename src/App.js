@@ -5,8 +5,9 @@ import { BowlingBall } from '@styled-icons/boxicons-regular/BowlingBall';
 const names = [
   'Sharon He',
   'Jilly Song',
+  'Charlie'
   'Name X'
-]
+]s
 
 const App = () => {
   return (
