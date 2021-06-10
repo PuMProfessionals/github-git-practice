@@ -6,7 +6,8 @@ const names = [
   'Sharon He',
   'Jilly Song',
   'Name X',
-  'Bhumika Gupta'
+  'Bhumika Gupta',
+  'Keshini Ramchurreetoo'
 ]
 
 const App = () => {
