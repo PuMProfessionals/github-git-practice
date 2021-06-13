@@ -6,6 +6,7 @@ const names = [
   'Sharon He',
   'Jilly Song',
   'Name X',
+  'Bhumika Gupta',
   'Keshini Ramchurreetoo'
 ]
 
