@@ -6,8 +6,9 @@ const names = [
   'Sharon He',
   'Jilly Song',
   'Charlie',
-  'Name X'
-]s
+  'Keshini Ramchurreetoo',
+  'Name X',
+]
 
 const App = () => {
   return (
