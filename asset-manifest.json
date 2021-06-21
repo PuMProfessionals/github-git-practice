@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/team-pump-git-practice/static/css/main.d3362a87.chunk.css",
-    "main.js": "/team-pump-git-practice/static/js/main.43206b7b.chunk.js",
-    "main.js.map": "/team-pump-git-practice/static/js/main.43206b7b.chunk.js.map",
-    "runtime-main.js": "/team-pump-git-practice/static/js/runtime-main.11b31618.js",
-    "runtime-main.js.map": "/team-pump-git-practice/static/js/runtime-main.11b31618.js.map",
-    "static/js/2.f57077f4.chunk.js": "/team-pump-git-practice/static/js/2.f57077f4.chunk.js",
-    "static/js/2.f57077f4.chunk.js.map": "/team-pump-git-practice/static/js/2.f57077f4.chunk.js.map",
-    "static/js/3.7091e98e.chunk.js": "/team-pump-git-practice/static/js/3.7091e98e.chunk.js",
-    "static/js/3.7091e98e.chunk.js.map": "/team-pump-git-practice/static/js/3.7091e98e.chunk.js.map",
-    "index.html": "/team-pump-git-practice/index.html",
-    "static/css/main.d3362a87.chunk.css.map": "/team-pump-git-practice/static/css/main.d3362a87.chunk.css.map",
-    "static/js/2.f57077f4.chunk.js.LICENSE.txt": "/team-pump-git-practice/static/js/2.f57077f4.chunk.js.LICENSE.txt"
+    "main.css": "/github-git-practice/static/css/main.d3362a87.chunk.css",
+    "main.js": "/github-git-practice/static/js/main.aa09ca9b.chunk.js",
+    "main.js.map": "/github-git-practice/static/js/main.aa09ca9b.chunk.js.map",
+    "runtime-main.js": "/github-git-practice/static/js/runtime-main.586bf179.js",
+    "runtime-main.js.map": "/github-git-practice/static/js/runtime-main.586bf179.js.map",
+    "static/js/2.d439c9c3.chunk.js": "/github-git-practice/static/js/2.d439c9c3.chunk.js",
+    "static/js/2.d439c9c3.chunk.js.map": "/github-git-practice/static/js/2.d439c9c3.chunk.js.map",
+    "static/js/3.7091e98e.chunk.js": "/github-git-practice/static/js/3.7091e98e.chunk.js",
+    "static/js/3.7091e98e.chunk.js.map": "/github-git-practice/static/js/3.7091e98e.chunk.js.map",
+    "index.html": "/github-git-practice/index.html",
+    "static/css/main.d3362a87.chunk.css.map": "/github-git-practice/static/css/main.d3362a87.chunk.css.map",
+    "static/js/2.d439c9c3.chunk.js.LICENSE.txt": "/github-git-practice/static/js/2.d439c9c3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.11b31618.js",
-    "static/js/2.f57077f4.chunk.js",
+    "static/js/runtime-main.586bf179.js",
+    "static/js/2.d439c9c3.chunk.js",
     "static/css/main.d3362a87.chunk.css",
-    "static/js/main.43206b7b.chunk.js"
+    "static/js/main.aa09ca9b.chunk.js"
   ]
 }
