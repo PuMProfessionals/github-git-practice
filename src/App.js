@@ -9,7 +9,8 @@ const names = [
   'Bhumika Gupta',
   'Diana Lin',
   'Rebbi Xu',
-  'Lynn Wang'
+  'Lynn Wang',
+  'Jackson Qi'
 ]
 
 const App = () => {
